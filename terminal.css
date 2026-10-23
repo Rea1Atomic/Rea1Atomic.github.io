@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "retro";
+    src: url("./fonts/arcade/retro-pixel-arcade.ttf");
+}
+
+@font-face {
+    font-family: "cute";
+    src: url("./fonts/cute-mono/retro-pixel-cute-mono.ttf");
+}
+
+body {
+    margin: 0px;
+    background-color: #282828;
+    color: #80bb26;
+    font-family: "cute";
+    font-size: 20px;
+    text-shadow: 0px 0px 20px #80bb26;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    font-family: "retro";
+    padding-left: 20px;
+    width: 70%;
+}
+
+#title h3 {
+    font-family: "cute";
+}
+
+#nav {
+    width: 20%;
+    height: 100px;
+
+    padding: 10px;
+    margin-right: 20px;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #80bb26;
+    border-radius: 2px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav a {
+    color: #80bb26;
+    text-decoration: none;
+}
+
+.nav-button {
+    background-color: #504945;
+    width: 49%;
+    height: 45%;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 30px;
+
+    color: #EBDBB2;
+    text-shadow: 0px 0px 5px;
+}
+
+#articles {
+    width: 82%;
+}
+
+#articles h2 {
+    color: #8EE07C;
+}
+
+#articles a {
+    color: #EBDBB2;
+    text-decoration: none;
+}
+
+.article {
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+    border-left-style: solid;
+    border-color: #80bb26; 
+    border-width: 8px;
+    margin: 10px;
+    background-color: #3C3836;
+}
+
+#side-bar {
+    width: 15%;
+    border-left-style: solid;
+    border-color: #504945;
+    border-width: 2px;
+}
+
+#side-bar li {
+    margin: 10px;
+}
