@@ -9,8 +9,12 @@
 
     <body>
         <!-- <div> -->
-        <div class="scanlines" id="scanlines-container">
+        <div id="loader" class="scanlines">
+            [ loading.. ]
+        </div>
 
+        <!-- hide first. visible after loaded -->
+        <div class="scanlines" id="scanlines-container" style="visibility:hidden">
             <div id="banner-placeholder"></div>
 
             <hr>
@@ -33,7 +37,7 @@
                             <h2 class="typing">Test article 2</h2>
                             <p>
                                 This is my new blog site! Welcome!!!<br>
-                                !'m A 5uP3r N3Rd
+                                !'m A 5uP3r N3Rd.
                             </p>
                         </div>
                     </a>
@@ -48,8 +52,8 @@
                 </div>
             </div>
         </div>
-
-        <!-- typing effects should be placed here to get all elements-->
-        <script type="module" src="./js/entry.js"></script>
     </body>
+
+    <!-- typing effects should be placed here to get all elements--> 
+    <script type="module" src="./js/entry.js"></script>
 </html>

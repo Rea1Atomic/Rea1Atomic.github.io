@@ -12,6 +12,11 @@ async function script() {
     });
 
     await getMotto();
+
+    document.getElementById("loader").innerHTML = "";
+    document.getElementById("scanlines-container")
+        .style.visibility = "visible"
+
     await typingEffect(document.getElementsByClassName("typing"));
     await blinkCursorEffect(document.getElementsByClassName("blink"));
 }
